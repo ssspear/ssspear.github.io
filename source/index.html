@@ -12,7 +12,11 @@ layout: default
         Data / Astrophysics / Typography / A little short to be a stormtrooper / She / Her</p>
       <a href="{{ '/about' | prepend: site.url }}" class="button button-ghost" title="about">About</a>
       <a href="http://polling-stone.com/" class="button button-ghost" title="blog">Polling Stone</a>
-      {% include social.html %}
+      <ul class="social">
+        <li><a href="{{ site.author.github }}" target="_blank"><i class="icon icon-github"></i></a></li>
+        <li><a href="{{ site.author.twitter }}" target="_blank"><i class="icon icon-twitter"></i></a></li>
+        <li><a href="{{ site.author.linkedin }}" target="_blank"><i class="icon icon-linkedin"></i></a></li>
+      </ul>
     </div>
   </div>
 </section>
